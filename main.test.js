@@ -4,8 +4,41 @@ Your code goes below.
 
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Francis';
+let greeting = 'HEY';
 
+function multiply(kobe) {
+  x = x * kobe;
+}
 
+//multiply(); 
+
+function modYBy (bird){
+  y = y % bird;
+}
+
+//modYBy();
+
+function opposite (magic){
+  z = magic * (-1);
+}
+
+//opposite();
+
+function makeFullName(jordan){
+  name = name + ' ' + jordan;
+}
+
+//makeFullName();
+
+function yellAt(lebron){
+  greeting = greeting + ',' + ' ' + lebron + '!'
+}
+
+//yellAt();
 
 
 
